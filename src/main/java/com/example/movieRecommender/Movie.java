@@ -1,7 +1,7 @@
 package com.example.movieRecommender;
-import java.util.Set;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Set;
 
 public class Movie {
     String title;
@@ -16,6 +16,7 @@ public class Movie {
         return title;
     }
 
+    
     public Set<String> getGenres() {
         return genres;
     }
